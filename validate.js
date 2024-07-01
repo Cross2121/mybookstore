@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
    const isValid = username === 'admin' && password === 'secret';
 
    if (isValid) {
-       window.location.href = 'https://www.example.com/success'; // Replace with your success page URL
+       window.location.href = 'index2.html'; 
    } else {
        alert('Invalid username or password.');
    }
