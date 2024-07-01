@@ -1,5 +1,6 @@
 body{
     background-image: url(bookstore.jpg);
+    width: fit-content;
     font-family: Arial, sans-serif;
     margin: 20px;
 }
