@@ -3,4 +3,54 @@ body{
     width: fit-content;
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-size: cover;
+    background-repeat: round;
+}
+
+header {
+    background-color: #34495e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card-ebooks {
+    background-color: #1abc9c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-ebooks:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.card-ebooks a {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+.card-ebooks a:hover {
+    text-decoration: underline;
+}
+
+.card-ebooks img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+    .card-ebooks {
+        padding: 10px;
+    }
+
+    .card-ebooks a {
+        font-size: 1em;
+    }
 }

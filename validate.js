@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
    const isValid = username === 'admin' && password === 'secret';
 
    if (isValid) {
-       window.location.href = 'index2.html'; 
+       window.location.href = 'index.html'; 
    } else {
        alert('Invalid username or password.');
    }
